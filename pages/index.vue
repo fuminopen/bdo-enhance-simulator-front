@@ -5,6 +5,8 @@
       <v-toolbar-title>Nuxt 3 & Vuetify Sample Page</v-toolbar-title>
     </v-app-bar>
 
+    <v-navigation-drawer permanent> Navigation Drawer </v-navigation-drawer>
+
     <!-- メインコンテンツエリア -->
     <v-main>
       <v-container>
@@ -17,16 +19,6 @@
           </v-col>
         </v-row>
       </v-container>
-      <v-bottom-sheet>
-        <template v-slot:activator="{ props }">
-          <v-btn v-bind="props" text="Click Me"></v-btn>
-        </template>
-
-        <v-card
-          title="Bottom Sheet"
-          text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut, eos? Nulla aspernatur odio rem, culpa voluptatibus eius debitis dolorem perspiciatis asperiores sed consectetur praesentium! Delectus et iure maxime eaque exercitationem!"
-        ></v-card>
-      </v-bottom-sheet>
     </v-main>
 
     <!-- フッター -->
